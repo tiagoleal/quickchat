@@ -1,0 +1,21 @@
+# Substitua o conteúdo do seu database.yml por:
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: postgres
+  user: postgres
+ 
+development:
+  <<: *default
+  database: slack_development
+ 
+test:
+  <<: *default
+  database: slack_test
+ 
+production:
+  <<: *default
+  database: slack_production
+  username: slackchat
+  password: <%= ENV['SLACK_DATABASE_PASSWORD'] %>
