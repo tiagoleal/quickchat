@@ -9,7 +9,7 @@
     <img alt="Current Version" src="https://img.shields.io/badge/version-1.0.0 -blue.svg">
   </a>
   <a href="https://ruby-doc.org/core-2.7.2/">
-    <img alt="Ruby Version" src="https://img.shields.io/badge/Ruby-2.6.2 -green.svg" target="_blank">
+    <img alt="Ruby Version" src="https://img.shields.io/badge/Ruby-2.7.2 -green.svg" target="_blank">
   </a>
   <a href="https://guides.rubyonrails.org/5_2_release_notes.html">
     <img alt="" src="https://img.shields.io/badge/Rails-~> 5.2.6-blue.svg" target="_blank">
