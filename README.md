@@ -1,12 +1,11 @@
 <p align="center">
   <a href="#">
-   <img alt="Secret Friend" src="https://github.com/tiagoleal/secret_friend/blob/master/app/assets/images/logo.png?raw=true" width="50">
+   <img alt="Secret Friend" src="https://github.com/tiagoleal/quickchat/blob/master/app/assets/images/logo.png?raw=true" width="200">
   </a>
 </p>
-<p align="center">Quick Chat</p>
 
 <p align="center">
-  <a href="https://github.com/tiagoleal/coin_conversion">
+  <a href="https://github.com/tiagoleal/quickchat">
     <img alt="Current Version" src="https://img.shields.io/badge/version-1.0.0 -blue.svg">
   </a>
   <a href="https://ruby-doc.org/core-2.7.2/">
@@ -18,11 +17,11 @@
   
 </p>
 
-Quick chat app allows you to automatically raffle a secret friend and send the information of the one you raffled by email.
+Quick chat consists of a messaging app similar to slack,that allows real-time chat.
 
 ## Screenshot
 
-![](https://github.com/tiagoleal/secret_friend/blob/master/app/assets/images/slack.gif?raw=true)
+![](https://github.com/tiagoleal/quickchat/blob/master/app/assets/images/slack.gif?raw=true)
 
 ## Stack the Project
 
@@ -38,8 +37,8 @@ Quick chat app allows you to automatically raffle a secret friend and send the i
 
 ## Features
 
-- **Raffle secret friend:** Make the raffle of the secret friend automatic.
-- **Send Mail:** Send mail with raffle with of the people of the campaign.
+- **Channels:** Permit to create a new channel and send to general message.
+- **Users:** Permit to send private message to user.
 
 ## Getting Started
 
@@ -112,6 +111,21 @@ To run the tests, you must run the docker container through the command:
 
 ```
 docker-compose run --rm app bundle exec rspec
+```
+
+## Running the Ruby Critic.
+
+To Verify the quality report of your Ruby code, you must run the docker container through the command:
+
+```
+docker-compose run --rm app bundle exec rubycritic 
+```
+## Running the Attractor.
+
+To Verify a code complexity metrics visualization and exploration tool, you must run the docker container through the command:
+
+```
+docker-compose run --rm app bundle exec attractor report 
 ```
 
 ## Authors
