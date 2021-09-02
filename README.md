@@ -113,14 +113,14 @@ To run the tests, you must run the docker container through the command:
 docker-compose run --rm app bundle exec rspec
 ```
 
-## Running the Ruby Critic.
+## Running the Ruby Critic
 
 To Verify the quality report of your Ruby code, you must run the docker container through the command:
 
 ```
 docker-compose run --rm app bundle exec rubycritic 
 ```
-## Running the Attractor.
+## Running the Attractor
 
 To Verify a code complexity metrics visualization and exploration tool, you must run the docker container through the command:
 
