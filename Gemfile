@@ -55,6 +55,7 @@ group :development, :test do
   gem 'rspec-json_expectations'
   gem 'rubycritic', require: false
   gem 'simplecov'
+  gem 'shoulda-matchers'
 end
 
 group :test do
