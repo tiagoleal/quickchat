@@ -10,11 +10,8 @@ RSpec.describe TeamsController, type: :controller do
     sign_in @current_user
   end
 
-  describe 'GET #index' do
-    it 'returns http success' do
-      get :index
-      expect(response).to have_http_status(:success)
-    end
+  context 'GET #index' do
+    include_examples :index_examples
   end
 
   describe 'GET #show' do

@@ -47,6 +47,7 @@ group :development, :test do
   gem 'faker'
   gem 'json_matchers'
   gem 'rspec-rails', '~> 5.0.0'
+  gem 'rails-controller-testing'
   # Automatic Ruby code style checking tool. Aims to enforce the community-driven Ruby Style Guide.
   gem 'attractor'
   gem 'attractor-javascript'
